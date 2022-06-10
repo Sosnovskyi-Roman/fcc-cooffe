@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Cooffe</title>
+    </head>
+    <body>
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <header id="header">
+            <div class="flex-row-center">
+                
+                <nav id="nav-bar">
+                    <ul class="flex-row">
+                        <li><a href="#showcase" class="nav-link">Home</a></li>
+                        <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                        <li><a href="#newsletter" class="nav-link">Newsletter</a></li>
+                    </ul>
+                </nav>
+                <div class="social-icons">
+                    <ul class="flex-row">
+                        <li>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <aside class="social-icons">
+            <ul>
+                <li>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </aside>
+
+        <main>
+            <section id="showcase">
+                <div class="flex-column-center left-align content">
+                    <p class="sub-header">Get ready for</p>
+                    <h1>
+                        <i class="logo-icon fas fa-haykal fa-xs">Cooffe
+                    </h1>
+                </div>
+                <div>
+                    <div >
+                        <video id="video">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/XcvEhwSl1tc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </video>
+                    </div>                  
+                </div>
+                <div class="product-img flex-row-center">
+                    <img class="standard_img" src="img/Cup1.jpg" alt="coffee" />             
+                </div>
+            </section>
+
+            <section id="pricing">
+                <div class="flex-row-center content">
+                    <div class="flex-column-center left-align">
+                        
+                    
+                    </div>                    
+                    <div class="flex-row container-centered shadow">
+                        <div class="price-tag">
+                            <ul>
+                                <li>&dollar;<strong class="price-strong">5</strong>/</li>
+                                <li>Order 1 cup of coffee</li>
+                                <li><a class="btn" href="#">Order Now</a></li>
+                            </ul>
+                        </div>
+                        <div class="price-tag focus-line">
+                            <ul>
+                                <li>&dollar;<strong class="price-strong">10</strong>/</li>
+                                <li>Order 3 cup of coffee</li>
+                                <li><a class="btn focus-bg" href="#">Order Now</a></li>
+                            </ul>
+                        </div>
+                        <div class="price-tag">
+                            <ul>
+                                <li>&dollar;<strong class="price-strong">15</strong>/</li>
+                                <li>Order 5 cup of coffee</li>
+                                <li><a class="btn" href="#">Order Now</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="newsletter">
+                <div class="flex-row-center content">
+                    <div class="flex-column-center left-align">
+                        <h2>Newsletter</h2>
+                        <h3 class="sub-header">Let's keep in touch</h3>
+                    </div>                    
+                    <div class="flex-row container-centered shadow">
+                        <form class="flex-column"
+                            action="https://www.freecodecamp.com/email-submit"
+                            method="GET"
+                            id="form"
+                        >
+                            <h3 class="focus">E-mail subscription</h3>
+                            <input
+                                id="email"
+                                type="email"
+                                name="email"
+                                placeholder="Enter your e-mail"
+                            />
+                            <input class="btn focus-bg" id="submit" type="submit" value="Submit"/>
+                        </form>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+        <footer>
+            
+        </footer>
+    </body>
+</html>
