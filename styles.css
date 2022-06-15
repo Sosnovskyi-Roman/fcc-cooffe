@@ -278,21 +278,21 @@
   }
   
   
-  /* Newsletter */
-  #newsletter {
+  /* Offer */
+  #Offer {
     width: 100vw;
     height: 100vh;
     background: radial-gradient(#ffffff34, #ffffff17);
   }
   
-  #newsletter form {
+  #Offer form {
     width: 32rem;
     border: 1px solid;
     border-color: var(--text-subtle);
     padding: 2rem 4rem;
   }
   
-  #newsletter form h3 {
+  #Offer form h3 {
     margin-bottom: 1rem;
   }
   
@@ -305,18 +305,18 @@
   
   @media only screen and (max-width: 1200px) {
     #pricing > .flex-row-center,
-    #newsletter > .flex-row-center {
+    #Offer > .flex-row-center {
         flex-direction: column;
     }
     #pricing .left-align,
-    #newsletter .left-align {
+    #Offer .left-align {
         align-items: center;
         text-align: center;
         justify-content: flex-end;
         flex: 0;
     }
     #pricing .sub-header,
-    #newsletter .sub-header {
+    #Offer .sub-header {
         margin-bottom: 4rem;
     }
   }
@@ -336,7 +336,7 @@
         padding: 6rem 3rem 6rem 3rem;
     }
     #pricing .content,
-    #newsletter .content {
+    #Offer .content {
         padding: 10rem 3rem 10rem 3rem;
     }
     header {
@@ -388,11 +388,11 @@
     .price-tag {
         padding: 2rem; 
     }
-    #newsletter .flex-row,
-    #newsletter form {
+    #Offer .flex-row,
+    #Offer form {
         width: 100%;
     } 
-    #newsletter form {
+    #Offer form {
         padding: 2rem 2rem;
     }
   }
@@ -403,7 +403,7 @@
         margin-left: 0.8rem;
     }
     #pricing .content,
-    #newsletter .content {
+    #Offer .content {
         padding: 1rem 2rem 5rem 2rem;
     }
     h1 {
@@ -422,7 +422,7 @@
         padding: 0 2rem;
         font-size: 0.8rem;
     }
-    #newsletter {
+    #Offer {
         height: auto;
     }
     #showcase img,
